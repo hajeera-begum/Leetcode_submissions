@@ -37,6 +37,15 @@ class NumArray:
             return self.prefix[right]
         return self.prefix[right] - self.prefix[left - 1]
 
+
+    '''
+Index :   0    1    2    3    4    5
+Value :  -2    0    3   -5    2   -1
+Prefix:  -2   -2    1   -4   -2   -3
+
+    '''
+
+
 # Your NumArray object will be instantiated and called as such:
 # obj = NumArray(nums)
 # param_1 = obj.sumRange(left,right)
